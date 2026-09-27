@@ -29,11 +29,15 @@ export class RecipesList {
   get canFilter(): boolean {
 
     if (this.filterType === 'NAME') {
+
       return this._name.trim().length > 0;
+
     }
 
     if (this.filterType === 'DIFFICULTY') {
+
       return this._difficulty.trim().length > 0;
+
     }
 
     return false;
@@ -50,12 +54,6 @@ export class RecipesList {
 
   filterRecipesList(): void {
 
-    if (!this.canFilter) {
-      this._recipesListFilter =
-        this.recipesList.recipes;
-      return;
-    }
-
     if (this.filterType === 'NAME') {
 
       this.filterRecipesListByName();
@@ -65,6 +63,11 @@ export class RecipesList {
     ) {
 
       this.filterRecipesListByDifficulty();
+
+    } else {
+
+      this._recipesListFilter =
+        this.recipesList.recipes;
 
     }
 
@@ -78,7 +81,7 @@ export class RecipesList {
           x.name
             .toLowerCase()
             .includes(
-              this._name.trim().toLowerCase()
+              this._name.toLowerCase()
             )
       );
 
@@ -92,7 +95,7 @@ export class RecipesList {
           x.difficulty
             .toLowerCase()
             .includes(
-              this._difficulty.trim().toLowerCase()
+              this._difficulty.toLowerCase()
             )
       );
 
