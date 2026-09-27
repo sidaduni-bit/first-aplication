@@ -1,0 +1,65 @@
+.card {
+
+  border: 1px solid #e8dff2;
+
+  margin: 10px;
+
+  padding: 10px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+
+  background-color: #eee6f5;
+
+}
+
+.contact-info {
+
+  padding: 10px;
+
+  color: #d98aaa;
+
+}
+
+.contact-info h3 {
+
+  color: #c45b86;
+
+}
+
+.credit-history {
+
+  padding: 10px;
+
+  border-left: 1px solid #e8dff2;
+
+  color: #d98aaa;
+
+}
+
+.credit-history h3 {
+
+  color: #c45b86;
+
+}
+
+@media (max-width: 700px) {
+
+  .card {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .credit-history {
+
+    border-left: none;
+
+    border-top: 1px solid #e8dff2;
+
+  }
+
+}
