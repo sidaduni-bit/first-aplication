@@ -1,1 +1,45 @@
-<p>recipes works!</p>
+<section class="recipes-container">
+
+  @for (item of recipesList.recipes; track item.id) {
+
+    <article class="recipe-card">
+
+      <img [src]="item.image" [alt]="item.name">
+
+      <h2>{{ item.id }} - {{ item.name }}</h2>
+
+      <div class="tags">
+        @for (tag of item.tags; track tag) {
+          <span class="chip">{{ tag }}</span>
+        }
+      </div>
+
+      <div class="recipe-content">
+
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+
+          <ul>
+            @for (ingredient of item.ingredients; track ingredient) {
+              <li>{{ ingredient }}</li>
+            }
+          </ul>
+        </div>
+
+        <div class="instructions">
+          <h3>Instructions</h3>
+
+          <ol>
+            @for (instruction of item.instructions; track instruction) {
+              <li>{{ instruction }}</li>
+            }
+          </ol>
+        </div>
+
+      </div>
+
+    </article>
+
+  }
+
+</section>
