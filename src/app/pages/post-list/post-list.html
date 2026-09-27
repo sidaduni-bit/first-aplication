@@ -1,0 +1,23 @@
+<section class="posts-list">
+
+  @for (post of posts; track post.id) {
+
+    <article class="post-card">
+
+      <h2>
+        {{ post.id }} - {{ post.title }}
+      </h2>
+
+      <p>
+        {{ post.body }}
+      </p>
+
+    </article>
+
+  } @empty {
+
+    <p>No hay publicaciones disponibles.</p>
+
+  }
+
+</section>

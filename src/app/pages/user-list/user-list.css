@@ -1,0 +1,109 @@
+.users-list {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  padding: 16px;
+
+}
+
+.user-card {
+
+  display: flex;
+
+  flex-direction: column;
+
+  flex: 1 1 352px;
+
+  gap: 16px;
+
+  padding: 16px;
+
+  border: 1px solid #e8dff2;
+
+  border-radius: 12px;
+
+  background-color: #eee6f5;
+
+  box-shadow: 0 8px 24px rgb(15 23 42 / 18%);
+
+}
+
+.user-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+}
+
+.user-info h2 {
+
+  margin: 0;
+
+  color: #c45b86;
+
+  font-size: 18px;
+
+}
+
+.user-info p {
+
+  margin: 0;
+
+  color: #c45b86;
+
+}
+
+.posts {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+
+}
+
+.post-card {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  padding: 12px;
+
+  border: 1px solid #e8dff2;
+
+  border-radius: 8px;
+
+  background-color: #f7dce7;
+
+}
+
+.post-card h3 {
+
+  margin: 0;
+
+  color: #c45b86;
+
+  font-size: 15px;
+
+}
+
+.post-card p {
+
+  margin: 0;
+
+  line-height: 1.5;
+
+  color: #c45b86;
+
+}

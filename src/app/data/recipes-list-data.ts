@@ -1,28 +1,29 @@
+
 export const RECIPES_LIST_DATA: any = {
   recipes: [
     {
       id: 1,
-      name: "Classic Margherita Pizza",
+      name: "Pizza Margarita Clásica",
       ingredients: [
-        "Pizza dough",
-        "Tomato sauce",
-        "Fresh mozzarella cheese",
-        "Fresh basil leaves",
-        "Olive oil",
-        "Salt and pepper to taste"
+        "Masa para pizza",
+        "Salsa de tomate",
+        "Queso mozzarella fresco",
+        "Hojas de albahaca fresca",
+        "Aceite de oliva",
+        "Sal y pimienta al gusto"
       ],
       instructions: [
-        "Preheat the oven to 475°F (245°C).",
-        "Roll out the pizza dough and spread tomato sauce evenly.",
-        "Top with slices of fresh mozzarella and fresh basil leaves.",
-        "Drizzle with olive oil and season with salt and pepper.",
-        "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
-        "Slice and serve hot."
+        "Precalienta el horno a 475°F (245°C).",
+        "Extiende la masa de pizza y distribuye uniformemente la salsa de tomate.",
+        "Coloca las rebanadas de mozzarella fresca y las hojas de albahaca.",
+        "Rocía con aceite de oliva y sazona con sal y pimienta.",
+        "Hornea durante 12-15 minutos o hasta que la corteza esté dorada.",
+        "Corta y sirve caliente."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 15,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Italian",
       caloriesPerServing: 300,
       tags: [
@@ -40,30 +41,30 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 2,
-      name: "Vegetarian Stir-Fry",
+      name: "Salteado de Verduras",
       ingredients: [
-        "Tofu, cubed",
-        "Broccoli florets",
-        "Carrots, sliced",
-        "Bell peppers, sliced",
-        "Soy sauce",
-        "Ginger, minced",
-        "Garlic, minced",
-        "Sesame oil",
-        "Cooked rice for serving"
+        "Tofu en cubos",
+        "Brócoli en floretes",
+        "Zanahorias en rodajas",
+        "Pimientos en rodajas",
+        "Salsa de soja",
+        "Jengibre picado",
+        "Ajo picado",
+        "Aceite de sésamo",
+        "Arroz cocido para servir"
       ],
       instructions: [
-        "In a wok, heat sesame oil over medium-high heat.",
-        "Add minced ginger and garlic, sauté until fragrant.",
-        "Add cubed tofu and stir-fry until golden brown.",
-        "Add broccoli, carrots, and bell peppers. Cook until vegetables are tender-crisp.",
-        "Pour soy sauce over the stir-fry and toss to combine.",
-        "Serve over cooked rice."
+        "En un wok, calienta el aceite de sésamo a fuego medio-alto.",
+        "Agrega el jengibre y el ajo picados y sofríe hasta que desprendan su aroma.",
+        "Agrega el tofu en cubos y saltéalo hasta que esté dorado.",
+        "Agrega el brócoli, las zanahorias y los pimientos. Cocina hasta que las verduras estén tiernas pero crujientes.",
+        "Vierte la salsa de soja sobre el salteado y mezcla bien.",
+        "Sirve sobre arroz cocido."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 20,
       servings: 3,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Asian",
       caloriesPerServing: 250,
       tags: [
@@ -82,32 +83,32 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 3,
-      name: "Chocolate Chip Cookies",
+      name: "Galletas con Chispas de Chocolate",
       ingredients: [
-        "All-purpose flour",
-        "Butter, softened",
-        "Brown sugar",
-        "White sugar",
-        "Eggs",
-        "Vanilla extract",
-        "Baking soda",
-        "Salt",
-        "Chocolate chips"
+        "Harina de uso general",
+        "Mantequilla suavizada",
+        "Azúcar morena",
+        "Azúcar blanca",
+        "Huevos",
+        "Extracto de vainilla",
+        "Bicarbonato de sodio",
+        "Sal",
+        "Chispas de chocolate"
       ],
       instructions: [
-        "Preheat the oven to 350°F (175°C).",
-        "In a bowl, cream together softened butter, brown sugar, and white sugar.",
-        "Beat in eggs one at a time, then stir in vanilla extract.",
-        "Combine flour, baking soda, and salt. Gradually add to the wet ingredients.",
-        "Fold in chocolate chips.",
-        "Drop rounded tablespoons of dough onto ungreased baking sheets.",
-        "Bake for 10-12 minutes or until edges are golden brown.",
-        "Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack."
+        "Precalienta el horno a 350°F (175°C).",
+        "En un recipiente, mezcla la mantequilla suavizada con el azúcar morena y el azúcar blanca.",
+        "Agrega los huevos uno por uno y luego incorpora el extracto de vainilla.",
+        "Combina la harina, el bicarbonato de sodio y la sal. Agrega gradualmente a los ingredientes húmedos.",
+        "Incorpora las chispas de chocolate.",
+        "Coloca cucharadas redondeadas de masa sobre bandejas para hornear sin engrasar.",
+        "Hornea durante 10-12 minutos o hasta que los bordes estén dorados.",
+        "Deja enfriar las galletas en la bandeja durante unos minutos antes de pasarlas a una rejilla."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 10,
       servings: 24,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "American",
       caloriesPerServing: 150,
       tags: [
@@ -127,30 +128,30 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 4,
-      name: "Chicken Alfredo Pasta",
+      name: "Pasta Alfredo con Pollo",
       ingredients: [
-        "Fettuccine pasta",
-        "Chicken breast, sliced",
-        "Heavy cream",
-        "Parmesan cheese, grated",
-        "Garlic, minced",
-        "Butter",
-        "Salt and pepper to taste",
-        "Fresh parsley for garnish"
+        "Pasta fettuccine",
+        "Pechuga de pollo en rodajas",
+        "Crema espesa",
+        "Queso parmesano rallado",
+        "Ajo picado",
+        "Mantequilla",
+        "Sal y pimienta al gusto",
+        "Perejil fresco para decorar"
       ],
       instructions: [
-        "Cook fettuccine pasta according to package instructions.",
-        "In a pan, sauté sliced chicken in butter until fully cooked.",
-        "Add minced garlic and cook until fragrant.",
-        "Pour in heavy cream and grated Parmesan cheese. Stir until the cheese is melted.",
-        "Season with salt and pepper to taste.",
-        "Combine the Alfredo sauce with cooked pasta.",
-        "Garnish with fresh parsley before serving."
+        "Cocina la pasta fettuccine siguiendo las instrucciones del paquete.",
+        "En una sartén, sofríe el pollo en rodajas con mantequilla hasta que esté completamente cocido.",
+        "Agrega el ajo picado y cocina hasta que desprenda su aroma.",
+        "Vierte la crema espesa y agrega el queso parmesano rallado. Mezcla hasta que el queso se derrita.",
+        "Sazona con sal y pimienta al gusto.",
+        "Combina la salsa Alfredo con la pasta cocida.",
+        "Decora con perejil fresco antes de servir."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 20,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Italian",
       caloriesPerServing: 500,
       tags: [
@@ -169,28 +170,28 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 5,
-      name: "Mango Salsa Chicken",
+      name: "Pollo con Salsa de Mango",
       ingredients: [
-        "Chicken thighs",
-        "Mango, diced",
-        "Red onion, finely chopped",
-        "Cilantro, chopped",
-        "Lime juice",
-        "Jalapeño, minced",
-        "Salt and pepper to taste",
-        "Cooked rice for serving"
+        "Muslos de pollo",
+        "Mango en cubos",
+        "Cebolla morada finamente picada",
+        "Cilantro picado",
+        "Jugo de limón",
+        "Jalapeño picado",
+        "Sal y pimienta al gusto",
+        "Arroz cocido para servir"
       ],
       instructions: [
-        "Season chicken thighs with salt and pepper.",
-        "Grill or bake chicken until fully cooked.",
-        "In a bowl, combine diced mango, chopped red onion, cilantro, minced jalapeño, and lime juice.",
-        "Dice the cooked chicken and mix it with the mango salsa.",
-        "Serve over cooked rice."
+        "Sazona los muslos de pollo con sal y pimienta.",
+        "Asa o hornea el pollo hasta que esté completamente cocido.",
+        "En un recipiente, combina el mango en cubos, la cebolla morada, el cilantro, el jalapeño y el jugo de limón.",
+        "Corta el pollo cocido en cubos y mézclalo con la salsa de mango.",
+        "Sirve sobre arroz cocido."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 25,
       servings: 3,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Mexican",
       caloriesPerServing: 380,
       tags: [
@@ -208,27 +209,27 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 6,
-      name: "Quinoa Salad with Avocado",
+      name: "Ensalada de Quinoa con Aguacate",
       ingredients: [
-        "Quinoa, cooked",
-        "Avocado, diced",
-        "Cherry tomatoes, halved",
-        "Cucumber, diced",
-        "Red bell pepper, diced",
-        "Feta cheese, crumbled",
-        "Lemon vinaigrette dressing",
-        "Salt and pepper to taste"
+        "Quinoa cocida",
+        "Aguacate en cubos",
+        "Tomates cherry cortados por la mitad",
+        "Pepino en cubos",
+        "Pimiento rojo en cubos",
+        "Queso feta desmenuzado",
+        "Aderezo de vinagreta de limón",
+        "Sal y pimienta al gusto"
       ],
       instructions: [
-        "In a large bowl, combine cooked quinoa, diced avocado, halved cherry tomatoes, diced cucumber, diced red bell pepper, and crumbled feta cheese.",
-        "Drizzle with lemon vinaigrette dressing and toss to combine.",
-        "Season with salt and pepper to taste.",
-        "Chill in the refrigerator before serving."
+        "En un recipiente grande, combina la quinoa cocida, el aguacate, los tomates cherry, el pepino, el pimiento rojo y el queso feta.",
+        "Rocía con el aderezo de vinagreta de limón y mezcla bien.",
+        "Sazona con sal y pimienta al gusto.",
+        "Refrigera antes de servir."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 15,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Mediterranean",
       caloriesPerServing: 280,
       tags: [
@@ -247,28 +248,28 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 7,
-      name: "Tomato Basil Bruschetta",
+      name: "Bruschetta de Tomate y Albahaca",
       ingredients: [
-        "Baguette, sliced",
-        "Tomatoes, diced",
-        "Fresh basil, chopped",
-        "Garlic cloves, minced",
-        "Balsamic glaze",
-        "Olive oil",
-        "Salt and pepper to taste"
+        "Baguette en rodajas",
+        "Tomates en cubos",
+        "Albahaca fresca picada",
+        "Dientes de ajo picados",
+        "Glaseado balsámico",
+        "Aceite de oliva",
+        "Sal y pimienta al gusto"
       ],
       instructions: [
-        "Preheat the oven to 375°F (190°C).",
-        "Place baguette slices on a baking sheet and toast in the oven until golden brown.",
-        "In a bowl, combine diced tomatoes, chopped fresh basil, minced garlic, and a drizzle of olive oil.",
-        "Season with salt and pepper to taste.",
-        "Top each toasted baguette slice with the tomato-basil mixture.",
-        "Drizzle with balsamic glaze before serving."
+        "Precalienta el horno a 375°F (190°C).",
+        "Coloca las rodajas de baguette en una bandeja y tuéstalas en el horno hasta que estén doradas.",
+        "En un recipiente, combina los tomates, la albahaca fresca, el ajo y un poco de aceite de oliva.",
+        "Sazona con sal y pimienta al gusto.",
+        "Coloca la mezcla de tomate y albahaca sobre cada rodaja de baguette tostada.",
+        "Rocía con glaseado balsámico antes de servir."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 10,
       servings: 6,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Italian",
       caloriesPerServing: 120,
       tags: [
@@ -286,30 +287,30 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 8,
-      name: "Beef and Broccoli Stir-Fry",
+      name: "Salteado de Carne de Res con Brócoli",
       ingredients: [
-        "Beef sirloin, thinly sliced",
-        "Broccoli florets",
-        "Soy sauce",
-        "Oyster sauce",
-        "Sesame oil",
-        "Garlic, minced",
-        "Ginger, minced",
-        "Cornstarch",
-        "Cooked white rice for serving"
+        "Solomillo de res cortado finamente",
+        "Brócoli en floretes",
+        "Salsa de soja",
+        "Salsa de ostras",
+        "Aceite de sésamo",
+        "Ajo picado",
+        "Jengibre picado",
+        "Maicena",
+        "Arroz blanco cocido para servir"
       ],
       instructions: [
-        "In a bowl, mix soy sauce, oyster sauce, sesame oil, and cornstarch to create the sauce.",
-        "In a wok, stir-fry thinly sliced beef until browned. Remove from the wok.",
-        "Stir-fry broccoli florets, minced garlic, and minced ginger in the same wok.",
-        "Add the cooked beef back to the wok and pour the sauce over the mixture.",
-        "Stir until everything is coated and heated through.",
-        "Serve over cooked white rice."
+        "En un recipiente, mezcla la salsa de soja, la salsa de ostras, el aceite de sésamo y la maicena para preparar la salsa.",
+        "En un wok, saltea la carne de res hasta que esté dorada. Retírala del wok.",
+        "Saltea el brócoli, el ajo y el jengibre en el mismo wok.",
+        "Agrega nuevamente la carne de res y vierte la salsa sobre la mezcla.",
+        "Revuelve hasta que todo quede cubierto y caliente.",
+        "Sirve sobre arroz blanco cocido."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 15,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Asian",
       caloriesPerServing: 380,
       tags: [
@@ -328,26 +329,26 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 9,
-      name: "Caprese Salad",
+      name: "Ensalada Caprese",
       ingredients: [
-        "Tomatoes, sliced",
-        "Fresh mozzarella cheese, sliced",
-        "Fresh basil leaves",
-        "Balsamic glaze",
-        "Extra virgin olive oil",
-        "Salt and pepper to taste"
+        "Tomates en rodajas",
+        "Queso mozzarella fresco en rodajas",
+        "Hojas de albahaca fresca",
+        "Glaseado balsámico",
+        "Aceite de oliva extra virgen",
+        "Sal y pimienta al gusto"
       ],
       instructions: [
-        "Arrange alternating slices of tomatoes and fresh mozzarella on a serving platter.",
-        "Tuck fresh basil leaves between the slices.",
-        "Drizzle with balsamic glaze and extra virgin olive oil.",
-        "Season with salt and pepper to taste.",
-        "Serve immediately as a refreshing salad."
+        "Coloca alternadamente las rodajas de tomate y mozzarella fresca en una fuente.",
+        "Coloca las hojas de albahaca fresca entre las rodajas.",
+        "Rocía con glaseado balsámico y aceite de oliva extra virgen.",
+        "Sazona con sal y pimienta.",
+        "Sirve inmediatamente como una ensalada refrescante."
       ],
       prepTimeMinutes: 10,
       cookTimeMinutes: 0,
       servings: 2,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Italian",
       caloriesPerServing: 200,
       tags: [
@@ -365,30 +366,30 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 10,
-      name: "Shrimp Scampi Pasta",
+      name: "Pasta con Camarones al Ajillo",
       ingredients: [
-        "Linguine pasta",
-        "Shrimp, peeled and deveined",
-        "Garlic, minced",
-        "White wine",
-        "Lemon juice",
-        "Red pepper flakes",
-        "Fresh parsley, chopped",
-        "Salt and pepper to taste"
+        "Pasta linguine",
+        "Camarones pelados y desvenados",
+        "Ajo picado",
+        "Vino blanco",
+        "Jugo de limón",
+        "Hojuelas de chile rojo",
+        "Perejil fresco picado",
+        "Sal y pimienta al gusto"
       ],
       instructions: [
-        "Cook linguine pasta according to package instructions.",
-        "In a skillet, sauté minced garlic in olive oil until fragrant.",
-        "Add shrimp and cook until pink and opaque.",
-        "Pour in white wine and lemon juice. Simmer until the sauce slightly thickens.",
-        "Season with red pepper flakes, salt, and pepper.",
-        "Toss cooked linguine in the shrimp scampi sauce.",
-        "Garnish with chopped fresh parsley before serving."
+        "Cocina la pasta linguine siguiendo las instrucciones del paquete.",
+        "En una sartén, sofríe el ajo picado en aceite de oliva hasta que desprenda su aroma.",
+        "Agrega los camarones y cocina hasta que estén rosados y opacos.",
+        "Vierte el vino blanco y el jugo de limón. Cocina a fuego lento hasta que la salsa espese ligeramente.",
+        "Sazona con las hojuelas de chile rojo, sal y pimienta.",
+        "Mezcla la pasta linguine cocida con la salsa de camarones.",
+        "Decora con perejil fresco picado antes de servir."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 20,
       servings: 3,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Italian",
       caloriesPerServing: 400,
       tags: [
@@ -406,33 +407,33 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 11,
-      name: "Chicken Biryani",
+      name: "Biryani de Pollo",
       ingredients: [
-        "Basmati rice",
-        "Chicken, cut into pieces",
-        "Onions, thinly sliced",
-        "Tomatoes, chopped",
-        "Yogurt",
-        "Ginger-garlic paste",
-        "Biryani masala",
-        "Green chilies, sliced",
-        "Fresh coriander leaves",
-        "Mint leaves",
+        "Arroz basmati",
+        "Pollo cortado en trozos",
+        "Cebollas cortadas finamente",
+        "Tomates picados",
+        "Yogur",
+        "Pasta de jengibre y ajo",
+        "Masala para biryani",
+        "Chiles verdes en rodajas",
+        "Hojas de cilantro fresco",
+        "Hojas de menta",
         "Ghee",
-        "Salt to taste"
+        "Sal al gusto"
       ],
       instructions: [
-        "Marinate chicken with yogurt, ginger-garlic paste, biryani masala, and salt.",
-        "In a pot, sauté sliced onions until golden brown. Remove half for later use.",
-        "Layer marinated chicken, chopped tomatoes, half of the fried onions, and rice in the pot.",
-        "Top with ghee, green chilies, fresh coriander leaves, mint leaves, and the remaining fried onions.",
-        "Cover and cook on low heat until the rice is fully cooked and aromatic.",
-        "Serve hot, garnished with additional coriander and mint leaves."
+        "Marina el pollo con yogur, pasta de jengibre y ajo, masala para biryani y sal.",
+        "En una olla, sofríe las cebollas hasta que estén doradas. Retira la mitad para usarla después.",
+        "Coloca en capas el pollo marinado, los tomates picados, la mitad de las cebollas fritas y el arroz.",
+        "Agrega el ghee, los chiles verdes, el cilantro fresco, las hojas de menta y el resto de las cebollas fritas.",
+        "Tapa y cocina a fuego lento hasta que el arroz esté completamente cocido y aromático.",
+        "Sirve caliente y decora con cilantro y hojas de menta adicionales."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 45,
       servings: 6,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Pakistani",
       caloriesPerServing: 550,
       tags: [
@@ -455,32 +456,32 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 12,
-      name: "Chicken Karahi",
+      name: "Karahi de Pollo",
       ingredients: [
-        "Chicken, cut into pieces",
-        "Tomatoes, chopped",
-        "Green chilies, sliced",
-        "Ginger, julienned",
-        "Garlic, minced",
-        "Coriander powder",
-        "Cumin powder",
-        "Red chili powder",
+        "Pollo cortado en trozos",
+        "Tomates picados",
+        "Chiles verdes en rodajas",
+        "Jengibre cortado en tiras finas",
+        "Ajo picado",
+        "Cilantro en polvo",
+        "Comino en polvo",
+        "Chile rojo en polvo",
         "Garam masala",
-        "Cooking oil",
-        "Fresh coriander leaves",
-        "Salt to taste"
+        "Aceite de cocina",
+        "Hojas de cilantro fresco",
+        "Sal al gusto"
       ],
       instructions: [
-        "In a wok (karahi), heat cooking oil and sauté minced garlic until golden brown.",
-        "Add chicken pieces and cook until browned on all sides.",
-        "Add chopped tomatoes, green chilies, ginger, and spices. Cook until tomatoes are soft.",
-        "Cover and simmer until the chicken is tender and the oil separates from the masala.",
-        "Garnish with fresh coriander leaves and serve hot with naan or rice."
+        "En un wok o karahi, calienta el aceite y sofríe el ajo picado hasta que esté dorado.",
+        "Agrega los trozos de pollo y cocina hasta que estén dorados por todos lados.",
+        "Agrega los tomates, los chiles verdes, el jengibre y las especias. Cocina hasta que los tomates estén suaves.",
+        "Tapa y cocina a fuego lento hasta que el pollo esté tierno y el aceite se separe del masala.",
+        "Decora con hojas de cilantro fresco y sirve caliente con naan o arroz."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 30,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Pakistani",
       caloriesPerServing: 420,
       tags: [
@@ -505,31 +506,31 @@ export const RECIPES_LIST_DATA: any = {
       id: 13,
       name: "Aloo Keema",
       ingredients: [
-        "Ground beef",
-        "Potatoes, peeled and diced",
-        "Onions, finely chopped",
-        "Tomatoes, chopped",
-        "Ginger-garlic paste",
-        "Cumin powder",
-        "Coriander powder",
-        "Turmeric powder",
-        "Red chili powder",
-        "Cooking oil",
-        "Fresh coriander leaves",
-        "Salt to taste"
+        "Carne de res molida",
+        "Papas peladas y cortadas en cubos",
+        "Cebollas finamente picadas",
+        "Tomates picados",
+        "Pasta de jengibre y ajo",
+        "Comino en polvo",
+        "Cilantro en polvo",
+        "Cúrcuma en polvo",
+        "Chile rojo en polvo",
+        "Aceite de cocina",
+        "Hojas de cilantro fresco",
+        "Sal al gusto"
       ],
       instructions: [
-        "In a pan, heat cooking oil and sauté chopped onions until golden brown.",
-        "Add ginger-garlic paste and sauté until fragrant.",
-        "Add ground beef and cook until browned. Drain excess oil if needed.",
-        "Add diced potatoes, chopped tomatoes, and spices. Mix well.",
-        "Cover and simmer until the potatoes are tender and the masala is well-cooked.",
-        "Garnish with fresh coriander leaves and serve hot with naan or rice."
+        "En una sartén, calienta el aceite y sofríe las cebollas picadas hasta que estén doradas.",
+        "Agrega la pasta de jengibre y ajo y sofríe hasta que desprenda su aroma.",
+        "Agrega la carne de res molida y cocina hasta que esté dorada. Escurre el exceso de aceite si es necesario.",
+        "Agrega las papas, los tomates y las especias. Mezcla bien.",
+        "Tapa y cocina a fuego lento hasta que las papas estén tiernas y el masala esté bien cocido.",
+        "Decora con hojas de cilantro fresco y sirve caliente con naan o arroz."
       ],
       prepTimeMinutes: 25,
       cookTimeMinutes: 35,
       servings: 5,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Pakistani",
       caloriesPerServing: 380,
       tags: [
@@ -551,33 +552,33 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 14,
-      name: "Chapli Kebabs",
+      name: "Kebabs Chapli",
       ingredients: [
-        "Ground beef",
-        "Onions, finely chopped",
-        "Tomatoes, finely chopped",
-        "Green chilies, chopped",
-        "Coriander leaves, chopped",
-        "Pomegranate seeds",
-        "Ginger-garlic paste",
-        "Cumin powder",
-        "Coriander powder",
-        "Red chili powder",
-        "Egg",
-        "Cooking oil",
-        "Salt to taste"
+        "Carne de res molida",
+        "Cebollas finamente picadas",
+        "Tomates finamente picados",
+        "Chiles verdes picados",
+        "Hojas de cilantro picadas",
+        "Semillas de granada",
+        "Pasta de jengibre y ajo",
+        "Comino en polvo",
+        "Cilantro en polvo",
+        "Chile rojo en polvo",
+        "Huevo",
+        "Aceite de cocina",
+        "Sal al gusto"
       ],
       instructions: [
-        "In a large bowl, mix ground beef, chopped onions, tomatoes, green chilies, coriander leaves, and pomegranate seeds.",
-        "Add ginger-garlic paste, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
-        "Add an egg to bind the mixture and form into round flat kebabs.",
-        "Heat cooking oil in a pan and shallow fry the kebabs until browned on both sides.",
-        "Serve hot with naan or mint chutney."
+        "En un recipiente grande, mezcla la carne de res, las cebollas, los tomates, los chiles verdes, el cilantro y las semillas de granada.",
+        "Agrega la pasta de jengibre y ajo, el comino, el cilantro en polvo, el chile rojo y la sal. Mezcla bien.",
+        "Agrega un huevo para unir la mezcla y forma kebabs redondos y planos.",
+        "Calienta aceite en una sartén y fríe los kebabs hasta que estén dorados por ambos lados.",
+        "Sirve caliente con naan o chutney de menta."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 20,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Pakistani",
       caloriesPerServing: 320,
       tags: [
@@ -600,29 +601,29 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 15,
-      name: "Saag (Spinach) with Makki di Roti",
+      name: "Saag de Espinaca con Makki di Roti",
       ingredients: [
-        "Mustard greens, washed and chopped",
-        "Spinach, washed and chopped",
-        "Cornmeal (makki ka atta)",
-        "Onions, finely chopped",
-        "Green chilies, chopped",
-        "Ginger, grated",
+        "Hojas de mostaza lavadas y picadas",
+        "Espinaca lavada y picada",
+        "Harina de maíz",
+        "Cebollas finamente picadas",
+        "Chiles verdes picados",
+        "Jengibre rallado",
         "Ghee",
-        "Salt to taste"
+        "Sal al gusto"
       ],
       instructions: [
-        "Boil mustard greens and spinach until tender. Drain and blend into a coarse paste.",
-        "In a pan, sauté chopped onions, green chilies, and grated ginger in ghee until golden brown.",
-        "Add the greens paste and cook until it thickens.",
-        "Meanwhile, knead cornmeal with water to make a dough. Roll into rotis (flatbreads).",
-        "Cook the rotis on a griddle until golden brown.",
-        "Serve hot saag with makki di roti and a dollop of ghee."
+        "Hierve las hojas de mostaza y la espinaca hasta que estén tiernas. Escúrrelas y licúalas hasta obtener una pasta gruesa.",
+        "En una sartén, sofríe las cebollas, los chiles verdes y el jengibre rallado en ghee hasta que estén dorados.",
+        "Agrega la pasta de verduras y cocina hasta que espese.",
+        "Mientras tanto, amasa la harina de maíz con agua para formar una masa. Forma las rotis.",
+        "Cocina las rotis en una plancha hasta que estén doradas.",
+        "Sirve el saag caliente con makki di roti y una cucharada de ghee."
       ],
       prepTimeMinutes: 40,
       cookTimeMinutes: 30,
       servings: 3,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Pakistani",
       caloriesPerServing: 280,
       tags: [
@@ -646,32 +647,32 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 16,
-      name: "Japanese Ramen Soup",
+      name: "Sopa Japonesa de Ramen",
       ingredients: [
-        "Ramen noodles",
-        "Chicken broth",
-        "Soy sauce",
+        "Fideos de ramen",
+        "Caldo de pollo",
+        "Salsa de soja",
         "Mirin",
-        "Sesame oil",
-        "Shiitake mushrooms, sliced",
-        "Bok choy, chopped",
-        "Green onions, sliced",
-        "Soft-boiled eggs",
-        "Grilled chicken slices",
-        "Norwegian seaweed (nori)"
+        "Aceite de sésamo",
+        "Hongos shiitake en rodajas",
+        "Bok choy picado",
+        "Cebollas verdes en rodajas",
+        "Huevos cocidos suaves",
+        "Rodajas de pollo a la parrilla",
+        "Alga marina nori"
       ],
       instructions: [
-        "Cook ramen noodles according to package instructions and set aside.",
-        "In a pot, combine chicken broth, soy sauce, mirin, and sesame oil. Bring to a simmer.",
-        "Add sliced shiitake mushrooms and chopped bok choy. Cook until vegetables are tender.",
-        "Divide the cooked noodles into serving bowls and ladle the hot broth over them.",
-        "Top with green onions, soft-boiled eggs, grilled chicken slices, and nori.",
-        "Serve hot and enjoy the authentic Japanese ramen!"
+        "Cocina los fideos de ramen siguiendo las instrucciones del paquete y déjalos a un lado.",
+        "En una olla, combina el caldo de pollo, la salsa de soja, el mirin y el aceite de sésamo. Lleva a fuego lento.",
+        "Agrega los hongos shiitake y el bok choy. Cocina hasta que las verduras estén tiernas.",
+        "Divide los fideos cocidos en los tazones y vierte el caldo caliente sobre ellos.",
+        "Agrega las cebollas verdes, los huevos cocidos, las rodajas de pollo a la parrilla y el nori.",
+        "Sirve caliente y disfruta del auténtico ramen japonés."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 25,
       servings: 2,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Japanese",
       caloriesPerServing: 480,
       tags: [
@@ -691,33 +692,33 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 17,
-      name: "Moroccan Chickpea Tagine",
+      name: "Tajín Marroquí de Garbanzos",
       ingredients: [
-        "Chickpeas, cooked",
-        "Tomatoes, chopped",
-        "Carrots, diced",
-        "Onions, finely chopped",
-        "Garlic, minced",
-        "Cumin",
-        "Coriander",
-        "Cinnamon",
-        "Paprika",
-        "Vegetable broth",
-        "Olives",
-        "Fresh cilantro, chopped"
+        "Garbanzos cocidos",
+        "Tomates picados",
+        "Zanahorias en cubos",
+        "Cebollas finamente picadas",
+        "Ajo picado",
+        "Comino",
+        "Cilantro",
+        "Canela",
+        "Pimentón",
+        "Caldo de verduras",
+        "Aceitunas",
+        "Cilantro fresco picado"
       ],
       instructions: [
-        "In a tagine or large pot, sauté chopped onions and minced garlic until softened.",
-        "Add diced carrots, chopped tomatoes, and cooked chickpeas.",
-        "Season with cumin, coriander, cinnamon, and paprika. Stir to coat.",
-        "Pour in vegetable broth and bring to a simmer. Cook until carrots are tender.",
-        "Stir in olives and garnish with fresh cilantro before serving.",
-        "Serve this flavorful Moroccan dish with couscous or crusty bread."
+        "En un tajín o una olla grande, sofríe las cebollas y el ajo hasta que estén suaves.",
+        "Agrega las zanahorias, los tomates y los garbanzos cocidos.",
+        "Sazona con comino, cilantro, canela y pimentón. Mezcla para cubrir los ingredientes.",
+        "Vierte el caldo de verduras y lleva a fuego lento. Cocina hasta que las zanahorias estén tiernas.",
+        "Agrega las aceitunas y decora con cilantro fresco antes de servir.",
+        "Sirve este sabroso plato marroquí con cuscús o pan crujiente."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 30,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Moroccan",
       caloriesPerServing: 320,
       tags: [
@@ -736,31 +737,31 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 18,
-      name: "Korean Bibimbap",
+      name: "Bibimbap Coreano",
       ingredients: [
-        "Cooked white rice",
-        "Beef bulgogi (marinated and grilled beef slices)",
-        "Carrots, julienned and sautéed",
-        "Spinach, blanched and seasoned",
-        "Zucchini, sliced and grilled",
-        "Bean sprouts, blanched",
-        "Fried egg",
-        "Gochujang (Korean red pepper paste)",
-        "Sesame oil",
-        "Toasted sesame seeds"
+        "Arroz blanco cocido",
+        "Carne bulgogi marinada y a la parrilla",
+        "Zanahorias cortadas en tiras y salteadas",
+        "Espinaca blanqueada y sazonada",
+        "Calabacín en rodajas y a la parrilla",
+        "Brotes de soja blanqueados",
+        "Huevo frito",
+        "Gochujang o pasta de chile rojo coreano",
+        "Aceite de sésamo",
+        "Semillas de sésamo tostadas"
       ],
       instructions: [
-        "Arrange cooked white rice in a bowl.",
-        "Top with beef bulgogi, sautéed carrots, seasoned spinach, grilled zucchini, and blanched bean sprouts.",
-        "Place a fried egg on top and drizzle with gochujang and sesame oil.",
-        "Sprinkle with toasted sesame seeds before serving.",
-        "Mix everything together before enjoying this delicious Korean bibimbap!",
-        "Feel free to customize with additional vegetables or protein."
+        "Coloca el arroz blanco cocido en un tazón.",
+        "Agrega la carne bulgogi, las zanahorias salteadas, la espinaca sazonada, el calabacín a la parrilla y los brotes de soja.",
+        "Coloca un huevo frito encima y agrega gochujang y aceite de sésamo.",
+        "Espolvorea semillas de sésamo tostadas antes de servir.",
+        "Mezcla todo antes de disfrutar este delicioso bibimbap coreano.",
+        "Puedes personalizarlo agregando otras verduras o proteínas."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 20,
       servings: 2,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Korean",
       caloriesPerServing: 550,
       tags: [
@@ -779,38 +780,38 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 19,
-      name: "Greek Moussaka",
+      name: "Moussaka Griega",
       ingredients: [
-        "Eggplants, sliced",
-        "Ground lamb or beef",
-        "Onions, finely chopped",
-        "Garlic, minced",
-        "Tomatoes, crushed",
-        "Red wine",
-        "Cinnamon",
-        "Allspice",
-        "Nutmeg",
-        "Olive oil",
-        "Milk",
-        "Flour",
-        "Parmesan cheese",
-        "Egg yolks"
+        "Berenjenas en rodajas",
+        "Carne de cordero o res molida",
+        "Cebollas finamente picadas",
+        "Ajo picado",
+        "Tomates triturados",
+        "Vino tinto",
+        "Canela",
+        "Pimienta de Jamaica",
+        "Nuez moscada",
+        "Aceite de oliva",
+        "Leche",
+        "Harina",
+        "Queso parmesano",
+        "Yemas de huevo"
       ],
       instructions: [
-        "Preheat oven to 375°F (190°C).",
-        "Sauté sliced eggplants in olive oil until browned. Set aside.",
-        "In the same pan, cook chopped onions and minced garlic until softened.",
-        "Add ground lamb or beef and brown. Stir in crushed tomatoes, red wine, and spices.",
-        "In a separate saucepan, make béchamel sauce: melt butter, whisk in flour, add milk, and cook until thickened.",
-        "Remove from heat and stir in Parmesan cheese and egg yolks.",
-        "In a baking dish, layer eggplants and meat mixture. Top with béchamel sauce.",
-        "Bake for 40-45 minutes until golden brown. Let it cool before slicing.",
-        "Serve slices of moussaka warm and enjoy this Greek classic!"
+        "Precalienta el horno a 375°F (190°C).",
+        "Sofríe las berenjenas en rodajas en aceite de oliva hasta que estén doradas. Déjalas a un lado.",
+        "En la misma sartén, cocina las cebollas y el ajo hasta que estén suaves.",
+        "Agrega la carne de cordero o res y dórala. Incorpora los tomates triturados, el vino tinto y las especias.",
+        "En una cacerola aparte, prepara la salsa bechamel: derrite la mantequilla, incorpora la harina, agrega la leche y cocina hasta que espese.",
+        "Retira del fuego y mezcla con el queso parmesano y las yemas de huevo.",
+        "En una fuente para hornear, coloca capas de berenjena y mezcla de carne. Cubre con la salsa bechamel.",
+        "Hornea durante 40-45 minutos hasta que esté dorada. Deja enfriar antes de cortar.",
+        "Sirve las porciones de moussaka calientes y disfruta de este clásico griego."
       ],
       prepTimeMinutes: 45,
       cookTimeMinutes: 45,
       servings: 6,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Greek",
       caloriesPerServing: 420,
       tags: [
@@ -828,31 +829,31 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 20,
-      name: "Butter Chicken (Murgh Makhani)",
+      name: "Pollo con Mantequilla (Murgh Makhani)",
       ingredients: [
-        "Chicken thighs, boneless and skinless",
-        "Yogurt",
-        "Ginger-garlic paste",
+        "Muslos de pollo deshuesados y sin piel",
+        "Yogur",
+        "Pasta de jengibre y ajo",
         "Garam masala",
-        "Kashmiri red chili powder",
-        "Tomato puree",
-        "Butter",
-        "Heavy cream",
-        "Kasuri methi (dried fenugreek leaves)",
-        "Sugar",
-        "Salt to taste"
+        "Chile rojo de Cachemira en polvo",
+        "Puré de tomate",
+        "Mantequilla",
+        "Crema espesa",
+        "Kasuri methi (hojas secas de fenogreco)",
+        "Azúcar",
+        "Sal al gusto"
       ],
       instructions: [
-        "Marinate chicken thighs in a mixture of yogurt, ginger-garlic paste, garam masala, and Kashmiri red chili powder.",
-        "In a pan, melt butter and sauté the marinated chicken until browned.",
-        "Add tomato puree and cook until the oil separates. Stir in heavy cream.",
-        "Sprinkle kasuri methi, sugar, and salt. Simmer until the chicken is fully cooked.",
-        "Serve this creamy butter chicken over rice or with naan for an authentic Pakistani/Indian experience."
+        "Marina los muslos de pollo con yogur, pasta de jengibre y ajo, garam masala y chile rojo de Cachemira.",
+        "En una sartén, derrite la mantequilla y sofríe el pollo marinado hasta que esté dorado.",
+        "Agrega el puré de tomate y cocina hasta que el aceite se separe. Incorpora la crema espesa.",
+        "Agrega el kasuri methi, el azúcar y la sal. Cocina a fuego lento hasta que el pollo esté completamente cocido.",
+        "Sirve este cremoso pollo con mantequilla sobre arroz o con naan."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 25,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Pakistani",
       caloriesPerServing: 480,
       tags: [
@@ -873,29 +874,29 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 21,
-      name: "Thai Green Curry",
+      name: "Curry Verde Tailandés",
       ingredients: [
-        "Chicken thighs, boneless and skinless",
-        "Green curry paste",
-        "Coconut milk",
-        "Fish sauce",
-        "Sugar",
-        "Eggplant, sliced",
-        "Bell peppers, sliced",
-        "Basil leaves",
-        "Jasmine rice for serving"
+        "Muslos de pollo deshuesados y sin piel",
+        "Pasta de curry verde",
+        "Leche de coco",
+        "Salsa de pescado",
+        "Azúcar",
+        "Berenjena en rodajas",
+        "Pimientos en rodajas",
+        "Hojas de albahaca",
+        "Arroz jazmín para servir"
       ],
       instructions: [
-        "In a pot, simmer green curry paste in coconut milk.",
-        "Add chicken, fish sauce, and sugar. Cook until chicken is tender.",
-        "Stir in sliced eggplant and bell peppers. Simmer until vegetables are cooked.",
-        "Garnish with fresh basil leaves.",
-        "Serve hot over jasmine rice and enjoy this Thai classic!"
+        "En una olla, cocina a fuego lento la pasta de curry verde con la leche de coco.",
+        "Agrega el pollo, la salsa de pescado y el azúcar. Cocina hasta que el pollo esté tierno.",
+        "Incorpora la berenjena y los pimientos. Cocina a fuego lento hasta que las verduras estén cocidas.",
+        "Decora con hojas de albahaca fresca.",
+        "Sirve caliente sobre arroz jazmín y disfruta de este clásico tailandés."
       ],
       prepTimeMinutes: 20,
       cookTimeMinutes: 30,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Thai",
       caloriesPerServing: 480,
       tags: [
@@ -913,26 +914,26 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 22,
-      name: "Mango Lassi",
+      name: "Lassi de Mango",
       ingredients: [
-        "Ripe mango, peeled and diced",
-        "Yogurt",
-        "Milk",
-        "Honey",
-        "Cardamom powder",
-        "Ice cubes"
+        "Mango maduro pelado y cortado en cubos",
+        "Yogur",
+        "Leche",
+        "Miel",
+        "Cardamomo en polvo",
+        "Cubos de hielo"
       ],
       instructions: [
-        "In a blender, combine diced mango, yogurt, milk, honey, and cardamom powder.",
-        "Blend until smooth and creamy.",
-        "Add ice cubes and blend again until the lassi is chilled.",
-        "Pour into glasses and garnish with a sprinkle of cardamom.",
-        "Enjoy this refreshing Mango Lassi!"
+        "En una licuadora, combina el mango, el yogur, la leche, la miel y el cardamomo.",
+        "Licúa hasta obtener una mezcla suave y cremosa.",
+        "Agrega los cubos de hielo y vuelve a licuar hasta que el lassi esté frío.",
+        "Vierte en vasos y decora con una pizca de cardamomo.",
+        "Disfruta de este refrescante lassi de mango."
       ],
       prepTimeMinutes: 10,
       cookTimeMinutes: 0,
       servings: 2,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Indian",
       caloriesPerServing: 180,
       tags: [
@@ -953,29 +954,29 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 23,
-      name: "Italian Tiramisu",
+      name: "Tiramisú Italiano",
       ingredients: [
-        "Espresso, brewed and cooled",
-        "Ladyfinger cookies",
-        "Mascarpone cheese",
-        "Heavy cream",
-        "Sugar",
-        "Cocoa powder"
+        "Café espresso preparado y enfriado",
+        "Galletas de soletilla",
+        "Queso mascarpone",
+        "Crema espesa",
+        "Azúcar",
+        "Cacao en polvo"
       ],
       instructions: [
-        "In a bowl, whip heavy cream until stiff peaks form.",
-        "In another bowl, mix mascarpone cheese and sugar until smooth.",
-        "Gently fold the whipped cream into the mascarpone mixture.",
-        "Dip ladyfinger cookies into brewed espresso and layer them in a serving dish.",
-        "Spread a layer of the mascarpone mixture over the cookies.",
-        "Repeat layers and finish with a dusting of cocoa powder.",
-        "Chill in the refrigerator for a few hours before serving.",
-        "Indulge in the decadence of this classic Italian Tiramisu!"
+        "En un recipiente, bate la crema espesa hasta obtener picos firmes.",
+        "En otro recipiente, mezcla el queso mascarpone y el azúcar hasta obtener una mezcla suave.",
+        "Incorpora suavemente la crema batida a la mezcla de mascarpone.",
+        "Sumerge las galletas de soletilla en el espresso y colócalas en capas en una fuente.",
+        "Extiende una capa de la mezcla de mascarpone sobre las galletas.",
+        "Repite las capas y termina espolvoreando cacao en polvo.",
+        "Refrigera durante unas horas antes de servir.",
+        "Disfruta de este clásico y delicioso tiramisú italiano."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 0,
       servings: 6,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Italian",
       caloriesPerServing: 350,
       tags: [
@@ -993,29 +994,29 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 24,
-      name: "Turkish Kebabs",
+      name: "Kebabs Turcos",
       ingredients: [
-        "Ground lamb or beef",
-        "Onions, grated",
-        "Garlic, minced",
-        "Parsley, finely chopped",
-        "Cumin",
-        "Coriander",
-        "Red pepper flakes",
-        "Salt and pepper to taste",
-        "Flatbread for serving",
-        "Tahini sauce"
+        "Carne de cordero o res molida",
+        "Cebollas ralladas",
+        "Ajo picado",
+        "Perejil finamente picado",
+        "Comino",
+        "Cilantro",
+        "Hojuelas de chile rojo",
+        "Sal y pimienta al gusto",
+        "Pan plano para servir",
+        "Salsa tahini"
       ],
       instructions: [
-        "In a bowl, mix ground meat, grated onions, minced garlic, chopped parsley, and spices.",
-        "Form the mixture into kebab shapes and grill until fully cooked.",
-        "Serve the kebabs on flatbread with a drizzle of tahini sauce.",
-        "Enjoy these flavorful Turkish Kebabs with your favorite sides."
+        "En un recipiente, mezcla la carne molida, las cebollas ralladas, el ajo, el perejil y las especias.",
+        "Forma la mezcla en forma de kebabs y ásalos hasta que estén completamente cocidos.",
+        "Sirve los kebabs sobre pan plano con un poco de salsa tahini.",
+        "Disfruta estos sabrosos kebabs turcos con tus acompañamientos favoritos."
       ],
       prepTimeMinutes: 25,
       cookTimeMinutes: 15,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Turkish",
       caloriesPerServing: 280,
       tags: [
@@ -1034,25 +1035,25 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 25,
-      name: "Blueberry Banana Smoothie",
+      name: "Batido de Arándanos y Plátano",
       ingredients: [
-        "Blueberries, fresh or frozen",
-        "Banana, peeled and sliced",
-        "Greek yogurt",
-        "Almond milk",
-        "Honey",
-        "Chia seeds (optional)"
+        "Arándanos frescos o congelados",
+        "Plátano pelado y cortado en rodajas",
+        "Yogur griego",
+        "Leche de almendras",
+        "Miel",
+        "Semillas de chía (opcional)"
       ],
       instructions: [
-        "In a blender, combine blueberries, banana, Greek yogurt, almond milk, and honey.",
-        "Blend until smooth and creamy.",
-        "Add chia seeds for extra nutrition and blend briefly.",
-        "Pour into a glass and enjoy this nutritious Blueberry Banana Smoothie!"
+        "En una licuadora, combina los arándanos, el plátano, el yogur griego, la leche de almendras y la miel.",
+        "Licúa hasta obtener una mezcla suave y cremosa.",
+        "Agrega las semillas de chía para obtener nutrición adicional y licúa brevemente.",
+        "Vierte en un vaso y disfruta de este nutritivo batido de arándanos y plátano."
       ],
       prepTimeMinutes: 10,
       cookTimeMinutes: 0,
       servings: 1,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Smoothie",
       caloriesPerServing: 220,
       tags: [
@@ -1072,24 +1073,24 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 26,
-      name: "Mexican Street Corn (Elote)",
+      name: "Elote Mexicano",
       ingredients: [
-        "Corn on the cob",
-        "Mayonnaise",
-        "Cotija cheese, crumbled",
-        "Chili powder",
-        "Lime wedges"
+        "Mazorca de maíz",
+        "Mayonesa",
+        "Queso Cotija desmenuzado",
+        "Chile en polvo",
+        "Gajos de limón"
       ],
       instructions: [
-        "Grill or roast corn on the cob until kernels are charred.",
-        "Brush each cob with mayonnaise, then sprinkle with crumbled Cotija cheese and chili powder.",
-        "Serve with lime wedges for squeezing over the top.",
-        "Enjoy this delicious and flavorful Mexican Street Corn!"
+        "Asa o cocina la mazorca de maíz hasta que los granos estén dorados y ligeramente quemados.",
+        "Unta cada mazorca con mayonesa y luego espolvorea queso Cotija y chile en polvo.",
+        "Sirve con gajos de limón para exprimir sobre el elote.",
+        "Disfruta de este delicioso y sabroso elote mexicano."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 15,
       servings: 4,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Mexican",
       caloriesPerServing: 180,
       tags: [
@@ -1109,30 +1110,30 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 27,
-      name: "Russian Borscht",
+      name: "Borscht Ruso",
       ingredients: [
-        "Beets, peeled and shredded",
-        "Cabbage, shredded",
-        "Potatoes, diced",
-        "Onions, finely chopped",
-        "Carrots, grated",
-        "Tomato paste",
-        "Beef or vegetable broth",
-        "Garlic, minced",
-        "Bay leaves",
-        "Sour cream for serving"
+        "Remolachas peladas y ralladas",
+        "Repollo rallado",
+        "Papas cortadas en cubos",
+        "Cebollas finamente picadas",
+        "Zanahorias ralladas",
+        "Pasta de tomate",
+        "Caldo de res o verduras",
+        "Ajo picado",
+        "Hojas de laurel",
+        "Crema agria para servir"
       ],
       instructions: [
-        "In a pot, sauté chopped onions and garlic until softened.",
-        "Add shredded beets, cabbage, diced potatoes, grated carrots, and tomato paste.",
-        "Pour in broth and add bay leaves. Simmer until vegetables are tender.",
-        "Serve hot with a dollop of sour cream on top.",
-        "Enjoy the hearty and comforting flavors of Russian Borscht!"
+        "En una olla, sofríe las cebollas y el ajo hasta que estén suaves.",
+        "Agrega las remolachas, el repollo, las papas, las zanahorias y la pasta de tomate.",
+        "Vierte el caldo y agrega las hojas de laurel. Cocina a fuego lento hasta que las verduras estén tiernas.",
+        "Sirve caliente con una cucharada de crema agria encima.",
+        "Disfruta de los sabores abundantes y reconfortantes del borscht ruso."
       ],
       prepTimeMinutes: 30,
       cookTimeMinutes: 40,
       servings: 6,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Russian",
       caloriesPerServing: 220,
       tags: [
@@ -1151,31 +1152,31 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 28,
-      name: "South Indian Masala Dosa",
+      name: "Dosa Masala del Sur de India",
       ingredients: [
-        "Dosa batter (fermented rice and urad dal batter)",
-        "Potatoes, boiled and mashed",
-        "Onions, finely chopped",
-        "Mustard seeds",
-        "Cumin seeds",
-        "Curry leaves",
-        "Turmeric powder",
-        "Green chilies, chopped",
+        "Masa para dosa de arroz y urad dal fermentada",
+        "Papas hervidas y trituradas",
+        "Cebollas finamente picadas",
+        "Semillas de mostaza",
+        "Semillas de comino",
+        "Hojas de curry",
+        "Cúrcuma en polvo",
+        "Chiles verdes picados",
         "Ghee",
-        "Coconut chutney for serving"
+        "Chutney de coco para servir"
       ],
       instructions: [
-        "In a pan, heat ghee and add mustard seeds, cumin seeds, and curry leaves.",
-        "Add chopped onions, green chilies, and turmeric powder. Sauté until onions are golden brown.",
-        "Mix in boiled and mashed potatoes. Cook until well combined and seasoned.",
-        "Spread dosa batter on a hot griddle to make thin pancakes.",
-        "Place a spoonful of the potato mixture in the center, fold, and serve hot.",
-        "Pair with coconut chutney for a delicious South Indian meal."
+        "En una sartén, calienta el ghee y agrega las semillas de mostaza, las semillas de comino y las hojas de curry.",
+        "Agrega las cebollas, los chiles verdes y la cúrcuma. Sofríe hasta que las cebollas estén doradas.",
+        "Incorpora las papas hervidas y trituradas. Cocina hasta que todo esté bien mezclado y sazonado.",
+        "Extiende la masa para dosa sobre una plancha caliente para formar panqueques delgados.",
+        "Coloca una cucharada de la mezcla de papa en el centro, dobla y sirve caliente.",
+        "Acompaña con chutney de coco para disfrutar de una deliciosa comida del sur de India."
       ],
       prepTimeMinutes: 40,
       cookTimeMinutes: 20,
       servings: 4,
-      difficulty: "Medium",
+      difficulty: "Medio",
       cuisine: "Indian",
       caloriesPerServing: 320,
       tags: [
@@ -1194,28 +1195,28 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 29,
-      name: "Lebanese Falafel Wrap",
+      name: "Wrap de Falafel Libanés",
       ingredients: [
-        "Falafel balls",
-        "Whole wheat or regular wraps",
-        "Tomatoes, diced",
-        "Cucumbers, sliced",
-        "Red onions, thinly sliced",
-        "Lettuce, shredded",
-        "Tahini sauce",
-        "Fresh parsley, chopped"
+        "Bolitas de falafel",
+        "Wraps de trigo integral o normales",
+        "Tomates en cubos",
+        "Pepinos en rodajas",
+        "Cebolla morada en rodajas finas",
+        "Lechuga rallada",
+        "Salsa tahini",
+        "Perejil fresco picado"
       ],
       instructions: [
-        "Warm falafel balls according to package instructions.",
-        "Place a generous serving of falafel in the center of each wrap.",
-        "Top with diced tomatoes, sliced cucumbers, red onions, shredded lettuce, and fresh parsley.",
-        "Drizzle with tahini sauce and wrap tightly.",
-        "Enjoy this Lebanese Falafel Wrap filled with fresh and flavorful ingredients!"
+        "Calienta las bolitas de falafel siguiendo las instrucciones del paquete.",
+        "Coloca una porción generosa de falafel en el centro de cada wrap.",
+        "Agrega los tomates, pepinos, cebolla morada, lechuga y perejil.",
+        "Rocía con salsa tahini y enrolla firmemente.",
+        "Disfruta de este wrap de falafel libanés lleno de ingredientes frescos y sabrosos."
       ],
       prepTimeMinutes: 15,
       cookTimeMinutes: 10,
       servings: 2,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Lebanese",
       caloriesPerServing: 400,
       tags: [
@@ -1234,24 +1235,24 @@ export const RECIPES_LIST_DATA: any = {
 
     {
       id: 30,
-      name: "Brazilian Caipirinha",
+      name: "Caipiriña Brasileña",
       ingredients: [
-        "Cachaça (Brazilian sugarcane spirit)",
-        "Lime, cut into wedges",
-        "Granulated sugar",
-        "Ice cubes"
+        "Cachaça (destilado brasileño de caña de azúcar)",
+        "Limón verde cortado en gajos",
+        "Azúcar granulada",
+        "Cubos de hielo"
       ],
       instructions: [
-        "In a glass, muddle lime wedges with granulated sugar to release the juice.",
-        "Fill the glass with ice cubes.",
-        "Pour cachaça over the ice and stir well.",
-        "Sip and enjoy the refreshing taste of the Brazilian Caipirinha!",
-        "Adjust sugar and lime to suit your taste preferences."
+        "En un vaso, machaca los gajos de limón con el azúcar para liberar el jugo.",
+        "Llena el vaso con cubos de hielo.",
+        "Vierte la cachaça sobre el hielo y mezcla bien.",
+        "Disfruta del refrescante sabor de la caipiriña brasileña.",
+        "Ajusta la cantidad de azúcar y limón según tu gusto."
       ],
       prepTimeMinutes: 5,
       cookTimeMinutes: 0,
       servings: 1,
-      difficulty: "Easy",
+      difficulty: "Fácil",
       cuisine: "Brazilian",
       caloriesPerServing: 150,
       tags: [
@@ -1273,3 +1274,4 @@ export const RECIPES_LIST_DATA: any = {
   skip: 0,
   limit: 30
 };
+

@@ -1,0 +1,53 @@
+.posts-list {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 16px;
+
+  padding: 16px;
+
+}
+
+.post-card {
+
+  display: flex;
+
+  flex-direction: column;
+
+  flex: 1 1 352px;
+
+  gap: 8px;
+
+  padding: 16px;
+
+  border: 1px solid #e8dff2;
+
+  border-radius: 12px;
+
+  background-color: #eee6f5;
+
+  box-shadow: 0 8px 24px rgb(15 23 42 / 18%);
+
+}
+
+.post-card h2 {
+
+  margin: 0;
+
+  color: #c45b86;
+
+  font-size: 18px;
+
+}
+
+.post-card p {
+
+  margin: 0;
+
+  line-height: 1.5;
+
+  color: #d98aaa;
+
+}
